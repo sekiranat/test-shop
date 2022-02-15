@@ -1,7 +1,7 @@
 import { Button } from 'common/btns/addCart'
 import './style.scss'
 
-export const Card = ({ availability, color, id, name, price, imageWidth, imageHeight, short_desc }) => {
+export const Card = ({ availability, color, id, name, price, short_desc }) => {
 
     const stockClass = availability ? 'card-product__stock card-product__stock_aviable' : 'card-product__stock card-product__stock_not-available'
 

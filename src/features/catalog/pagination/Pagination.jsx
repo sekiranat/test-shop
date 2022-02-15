@@ -1,6 +1,4 @@
-
 import './style.scss'
-
 
 export const Pagination = ({ total, onChangePage, currentPage }) => {
     const maxPages = Math.ceil(total / 4)
