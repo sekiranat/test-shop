@@ -1,0 +1,61 @@
+.card-product {
+    max-width: 305px;
+    width: 100%;
+    color: #4F545F;
+    border: 1px solid #E4ECF9;
+    box-shadow: 0px 3px 6px #DFEAFC;
+    align-self: flex-start;
+    transition: all 0.6s;
+    max-height: 440px;
+    overflow: hidden;
+    &__title {
+        line-height: 26px;
+        text-decoration: underline
+    }
+    &__img {
+        width: 305px;
+        padding: 20px;
+    }
+    &__info {
+        padding: 20px;
+        border-top: 1px solid #E4ECF9;
+    }
+    &__stock {
+        font-size: 12px;
+        line-height: 20px;
+        padding: 3px 16px 4px 9px;
+        color: #fff;
+        font-weight: bold;
+        display: inline-block;
+        &_aviable {
+            background: #76CB22;
+        }
+        &_not-available {
+            background: #A6C3EE;
+        }
+    }
+    &__title {
+        margin-top: 16px;
+    }
+    &__price {
+        margin-top: 24px;
+        font-weight: bold;
+    }
+    &__bottom {
+        margin-top: 11px;
+        font-size: 12px;
+        line-height: 20px;
+        color: #6C7683;
+    }
+    &__description {
+        margin-top: 5px;
+    }
+    &:hover {
+        max-height: 580px;
+    }
+
+    .button-add-cart {
+        margin-top: 16px;
+    }
+
+}

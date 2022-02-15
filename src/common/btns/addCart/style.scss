@@ -1,0 +1,29 @@
+.button-add-cart {
+    display: flex;
+    align-items: center;
+    background: #336EC6;
+    box-shadow: 0px 4px 8px #A9C2E9;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 14px;
+    border: none;
+    height: 45px;
+    padding: 15px 25px 15px 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    &:hover {
+        background: #336EA2;
+    }
+
+    &__icon {
+        width: 16px;
+        height: 12px;
+        background: url('../../../assets/icons/cart.svg') no-repeat;
+        background-size: 100% 12px;
+        background-position: center;
+        margin-right: 6px;
+    }
+}

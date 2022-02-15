@@ -1,0 +1,21 @@
+.product-list {
+    margin-top: 115px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 580px;
+    margin-left: -20px;
+
+    @media(max-width: 1280px) {
+        margin-top: 40px;
+        justify-content: center;
+        height: auto;
+    }
+}
+
+.product-list .card-product {
+    margin-left: 20px;
+
+    @media(max-width: 1280px) {
+            margin-bottom: 20px;
+    }
+}
